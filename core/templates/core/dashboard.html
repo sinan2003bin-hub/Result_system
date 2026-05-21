@@ -1,0 +1,88 @@
+<style>
+    .container{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+    a {
+        text-decoration: none;
+        color:rgb(241, 110, 110);
+    }
+    .delete{
+        background-color: rgb(255, 0, 0); 
+        color: white;
+        border-color:rgb(255, 0, 0);
+    }
+    .edit{
+        background-color: rgb(146, 32, 252); 
+        color: white;
+        border-color:rgb(146, 32, 252);
+    }
+</style>
+<div class="container">
+<h2><center>Student Dashboard (Private)</center></h2>
+
+<form method="POST">
+    {% csrf_token %}
+    <button name="action" value="delete" class="delete">Delete</button>
+    <button name="action" value="edit" class="edit">Edit</button>
+</form>
+
+{% if action == "delete" %}
+    {% regroup students by name as grouped_students %}
+    {% for group in grouped_students %}
+
+        <h2>{{ group.grouper}}, Roll: {{ group.list.0.roll }}</h2>
+
+        {% for student in group.list %}
+
+            <p>{{ student.subject }}- {{ student.marks }} 
+                <a href="{% url 'delete_student' student.id %}">Delete</a>
+            </p>
+
+        {% endfor %}
+    {% endfor %}
+
+
+{% elif action == "edit" %}
+    {% regroup students by name as grouped_students %}
+    {% for group in grouped_students %}
+
+        <h2>{{ group.grouper }}, Roll: {{ group.list.0.roll }}</h2>
+
+        {% for student in group.list %}
+
+            <p>{{ student.subject }}- {{ student.marks }} 
+                <a href="{% url 'edit_student' student.id %}">Edit</a>
+            </p>
+
+        {% endfor %}
+    {% endfor %}
+
+
+{% else %}
+{% regroup students by name as grouped_students %}
+{% for group in grouped_students %}
+        
+        <table border="1" cellspacing="0" cellpadding="10">
+        <tr>  
+            <td colspan="2" text-align="left"><b>Name: {{ group.grouper}}<br>
+             Roll: {{ group.list.0.roll }}</b></td>
+        </tr>
+        <tr>  
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        {% for student in group.list %}
+        <tr>
+            <td>{{ student.subject }}</td>
+            <td>{{ student.marks }} </td>
+        </tr>
+        {% endfor %}
+        </table>
+
+{% empty %}
+    <p>No students yet</p>
+{% endfor %}
+{% endif %}
+</div>

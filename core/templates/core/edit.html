@@ -1,0 +1,17 @@
+<h2>Edit Student</h2>
+
+<form method="POST">
+    {% csrf_token %}
+    <label for="name">Name:</label>
+    <input type="text" name="name" value="{{ student.name }}">
+    <label for="roll">Roll:</label>
+    <input type="number" name="roll" value="{{ student.roll }}">
+    <label for="subject">Subject:</label>
+    <input type="text" name="subject" value="{{ student.subject }}">
+    <label for="marks">Marks:</label>
+    <input type="number" name="marks" value="{{ student.marks }}">
+    
+
+    <button type="submit" style="color:aliceblue; background-color: #4aa20b;border-color:#4aa20b;">
+                    Update</button>
+</form>
