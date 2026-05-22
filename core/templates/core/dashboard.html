@@ -1,9 +1,13 @@
 <style>
-    .container{
+    div{
     width: 70%;
-    margin: auto;
-    margin-top: 40px;
+    margin: 0 auto;
+    padding: 5px 15px;
+    background-color:#f0ffc9;
 }
+    h2{
+        margin-top: 0;
+    }
     a {
         text-decoration: none;
         color:rgb(241, 110, 110);
@@ -18,8 +22,12 @@
         color: white;
         border-color:rgb(146, 32, 252);
     }
+    table{
+    width: 50%;
+    background-color: rgb(229, 247, 255);
+    }
 </style>
-<div class="container">
+<div>
 <h2><center>Student Dashboard (Private)</center></h2>
 
 <form method="POST">
@@ -64,22 +72,31 @@
 {% regroup students by name as grouped_students %}
 {% for group in grouped_students %}
         
-        <table border="1" cellspacing="0" cellpadding="10">
+        <table border="1" cellspacing="0" cellpadding="10" >
         <tr>  
-            <td colspan="2" text-align="left"><b>Name: {{ group.grouper}}<br>
+            <td colspan="4" text-align="left"><b>Name: {{ group.grouper}}<br>
              Roll: {{ group.list.0.roll }}</b></td>
         </tr>
         <tr>  
             <th>Subject</th>
             <th>Marks</th>
+            <th>Grade</th>
+            <th>Average Grade</th>
         </tr>
         {% for student in group.list %}
         <tr>
             <td>{{ student.subject }}</td>
             <td>{{ student.marks }} </td>
+            <td>{{ student.grade }} </td>
+            {% if forloop.first %}
+            <td rowspan="{{ group.list|length }}">
+                <nbps>{{ group.list.0.average_grade }}</nbps>
+            </td>
+            {% endif %}
         </tr>
         {% endfor %}
         </table>
+        <hr>
 
 {% empty %}
     <p>No students yet</p>
