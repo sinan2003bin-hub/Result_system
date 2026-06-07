@@ -21,6 +21,11 @@ def home(request):
 def dashboard(request):
 
     students = Student.objects.all()
+    search = request.GET.get('search')
+
+    if search:
+        students = students.filter(name__icontains=search)
+    
 
     action = None
 
