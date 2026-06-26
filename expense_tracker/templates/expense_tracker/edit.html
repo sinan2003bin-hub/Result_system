@@ -1,0 +1,12 @@
+<form method="post" >
+    {% csrf_token %}
+    <input type="date" name="date"
+       value="{{ expense.created_at|date:'Y-m-d' }}">
+    <label>Name:</label>
+    <input type="text" id="name" name="name" value="{{ expense.name }}">
+
+    <label>Amount:</label>
+    <input type="number" id="amount" name="amount" value="{{ expense.amount }}">
+
+    <button type="submit">Save</button>
+</form>

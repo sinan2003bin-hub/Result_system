@@ -1,0 +1,96 @@
+<style>
+    div {
+        background-color: rgb(255, 246, 236);
+        padding: 5px 20px;
+        border-radius: 10px;
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    p{
+        color: red;
+    }
+    .submit{
+        background-color: green;
+        color:aliceblue;
+        border-color:green;
+        width: 20%;
+    }
+    .submit a{
+            color:aliceblue;
+            text-decoration: none;
+        }
+    
+    label {
+         display: block;
+        margin-top: 10px;
+    }
+    input {
+        width: 90%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    
+</style>
+
+<div>
+    <h1><center>Expense Tracker</center></h1>
+    <h3><center>Sign Up</center></h3>
+
+<form method="post">
+    {% csrf_token %}
+    <label>Username:</label>
+    <input type="text" name="username" placeholder="Enter your name" required><br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <button type="button" onclick="togglePassword()">👁</button><br><br>
+
+    <label>Confirm Password:</label>
+    <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+        <button type="button" onclick="toggleConfirmPassword()">👁</button><br><br>
+
+    {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}
+
+
+    <h6>Already joined? <a href="{% url 'login' %}">Login here</a></h6>
+
+    <button type="submit" class="submit">Sign Up</a></button>
+</form>
+
+<script>
+
+function togglePassword() {
+
+    let password =
+        document.getElementById("password");
+
+    if (password.type ==="password")
+
+        { password.type ="text";}
+
+    else {password.type ="password";}
+}
+
+function toggleConfirmPassword() {
+
+    let confirm_password =
+        document.getElementById("confirm_password");
+
+    if (confirm_password.type ==="password")
+
+        { confirm_password.type ="text";}
+
+    else {confirm_password.type ="password";}
+}
+
+</script>
+</div>
