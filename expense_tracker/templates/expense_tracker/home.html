@@ -11,7 +11,6 @@ h1{
 .get{
     float:right;
 }
-
 .show{
     background-color: rgb(46, 192, 250);
     color: rgb(255, 252, 252); 
@@ -59,6 +58,8 @@ a{
     color: white;
     border-color:rgb(245, 110, 130);
 }
+
+
 /* ---------- Mobile Only ---------- */
 @media (max-width:768px){
 
@@ -88,6 +89,23 @@ a{
         width:100%;
         box-sizing:border-box;
     }
+    .box{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .filter{    
+        order:3;
+    } 
+
+    .add-form{    
+        order:1;
+    }
+
+    .buttons{    
+        order:2;
+    }
+
 
 }
 </style>
@@ -101,12 +119,15 @@ a{
     <h1>Expense Tracker</h1>
 
 
-<form method="POST" action="{% url 'logout' %}" class="logout-form">
+    <form method="POST" action="{% url 'logout' %}" class="logout-form">
     {% csrf_token %}
     <button type="submit" class="logout">Logout</button>
-</form>
-        
-<form method="get" class="get">
+    </form>
+   
+<div class="box">
+  
+<div class="filter">
+  <form method="get" class="get">
     <input type="text" name="search" placeholder="Search item...">
     <button type="submit">Search</button><br><br>
 
@@ -117,10 +138,13 @@ a{
     <input type="text" name="item_total" placeholder="Item name">
     <button type="submit">Show Item Total</button>
 
-</form>
-    
+   </form>
+</div>
+
+
+<div class="add-form">
 <!-- Add -->
-<form method="POST" >
+  <form method="POST" >
     {% csrf_token %}
 
     <label>Name:</label>
@@ -129,8 +153,9 @@ a{
     <label>Amount:</label>
     <input name="amount" placeholder="Enter the amount">
     <button name="action" value="add" class="add">Add</button>
-</form>
- 
+  </form>
+</div> 
+
 
 {% if success %}
 
@@ -148,7 +173,7 @@ a{
 
 
 
-
+<div class="buttons">
 <!-- Commands -->
 <form method="POST">
     {% csrf_token %}
@@ -158,6 +183,9 @@ a{
     <button name="action" value="delete" class="delete" >Delete</button>
     <button name="action" value="edit" class="edit" >Edit</button>
 </form>
+</div>
+
+</div>
 
 <br>
 
