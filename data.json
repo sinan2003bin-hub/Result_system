@@ -1,0 +1,1322 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add member",
+    "content_type": 7,
+    "codename": "add_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change member",
+    "content_type": 7,
+    "codename": "change_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete member",
+    "content_type": 7,
+    "codename": "delete_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view member",
+    "content_type": 7,
+    "codename": "view_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add student",
+    "content_type": 8,
+    "codename": "add_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change student",
+    "content_type": 8,
+    "codename": "change_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete student",
+    "content_type": 8,
+    "codename": "delete_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view student",
+    "content_type": 8,
+    "codename": "view_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add expense",
+    "content_type": 9,
+    "codename": "add_expense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change expense",
+    "content_type": 9,
+    "codename": "change_expense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete expense",
+    "content_type": 9,
+    "codename": "delete_expense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view expense",
+    "content_type": 9,
+    "codename": "view_expense"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$JlW9yn1gAzuNa9v1KnFTCL$br4UF3R+wGQ1/X5TgdMlvwMXx6q9WtSZ5ZZTqZ6hBVc=",
+    "last_login": "2026-04-01T10:11:51.103Z",
+    "is_superuser": true,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "user@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-01T10:07:41.043Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$twJ0aYDswj3B2ZhOJBiwaM$mUnGiccUswoAQYb0rmLaHybdW2zuR4oz11dQf4jSE2c=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "samia",
+    "first_name": "",
+    "last_name": "",
+    "email": "sam@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-03T06:44:43.086Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$bwG6ZzPWqvCClPlleyoCCX$XoSYKRs0BIRo/4QodyGzoFw/wnKyAIW6xcLgLDiqVO0=",
+    "last_login": "2026-07-23T08:57:00.744Z",
+    "is_superuser": false,
+    "username": "Samia",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-04T09:26:40.650Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$3FAgV5GFmUBX165zGrlfCz$xMa2hBD7O1VOZWCe9oE+bbZy3zV6QJGVM9Gt1zxmIjY=",
+    "last_login": "2026-06-07T06:28:04.394Z",
+    "is_superuser": false,
+    "username": "Rozina",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-05T13:31:15.099Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "member"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "student"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "expense_tracker",
+    "model": "expense"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "99psu9wo4exp4ezt30bbnoq1npe4rqba",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4aAPLdH734D2QWUqoGktCfjv5smPeh1ZjJviLStNW6jLHHOMIGG0y9jSs_SdpEf1O5dpN7WZWaxJ-KwQ1x7Lq_L0f4NKo0KEyjO2aIkgzYYfabCdLMhcHJaFuUYnfMeTTAorZWEwSevpOecuCiJGj5f0wo3Iw:1wmpEi:ECgoqjwVjzA-1kwfJKreCa2XagwhFdBqO9dtjvTUCNQ",
+    "expire_date": "2026-08-06T08:57:00.749Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ar6fc3005y0qpiuvadptfoexmykuzchl",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4aAPLdH734D2QWUqoGktCfjv5smPeh1ZjJviLStNW6jLHHOMIGG0y9jSs_SdpEf1O5dpN7WZWaxJ-KwQ1x7Lq_L0f4NKo0KEyjO2aIkgzYYfabCdLMhcHJaFuUYnfMeTTAorZWEwSevpOecuCiJGj5f0wo3Iw:1wmSwH:4bD4nB_LMtbtXA85TitMJpsprO59mXGC6sb2Tu39NP8",
+    "expire_date": "2026-08-05T09:08:29.842Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fd1se27gh89ijkxwtskzqgbdljeho2ui",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4a0wPLo0bvfQFhYpGpoUtqT8d9Nkx70OjOZN4S4bzXsndcwZ5hghMsvo5ie3A6RH7HdF5GWtq0ziSMRp-3itmR-Xc_2b1BjrzCBGdBFM3guzhqZ0CMZ4xm9LtImismhUVpltFaWoqUs0ipyCktmGhXB5wvEAzdj:1w7sYB:E39t_fYzP_u0eulHCRLnbqQls6-XjFQ14y5H4sbRGz0",
+    "expire_date": "2026-04-15T10:11:51.107Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y1blw392n2b9ezp96bcr9okbsukcnzus",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4aAPLdH734D2QWUqoGktCfjv5smPeh1ZjJviLStNW6jLHHOMIGG0y9jSs_SdpEf1O5dpN7WZWaxJ-KwQ1x7Lq_L0f4NKo0KEyjO2aIkgzYYfabCdLMhcHJaFuUYnfMeTTAorZWEwSevpOecuCiJGj5f0wo3Iw:1wfwXh:vEGDDvMM7sw6NkUZ-__i5-MdXvzRhqR_FNcso2Wb3Ho",
+    "expire_date": "2026-07-18T09:20:09.677Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ye3sk2mqpevzo7w12s69yl2aik64daap",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4aAPLdH734D2QWUqoGktCfjv5smPeh1ZjJviLStNW6jLHHOMIGG0y9jSs_SdpEf1O5dpN7WZWaxJ-KwQ1x7Lq_L0f4NKo0KEyjO2aIkgzYYfabCdLMhcHJaFuUYnfMeTTAorZWEwSevpOecuCiJGj5f0wo3Iw:1wXacg:0gxyrLyDH0l7s5DHq1jhC0Hb5WxO1eCr4OuU5KAI6AA",
+    "expire_date": "2026-06-25T08:18:46.115Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 12,
+  "fields": {
+    "name": "Samia",
+    "roll": 102,
+    "subject": "Physics",
+    "marks": 89
+  }
+},
+{
+  "model": "core.student",
+  "pk": 16,
+  "fields": {
+    "name": "Samia",
+    "roll": 102,
+    "subject": "Chemistry",
+    "marks": 80
+  }
+},
+{
+  "model": "core.student",
+  "pk": 20,
+  "fields": {
+    "name": "Samia",
+    "roll": 102,
+    "subject": "Math",
+    "marks": 90
+  }
+},
+{
+  "model": "core.student",
+  "pk": 24,
+  "fields": {
+    "name": "John",
+    "roll": 110,
+    "subject": "Physics",
+    "marks": 50
+  }
+},
+{
+  "model": "core.student",
+  "pk": 25,
+  "fields": {
+    "name": "John",
+    "roll": 110,
+    "subject": "English",
+    "marks": 40
+  }
+},
+{
+  "model": "core.student",
+  "pk": 26,
+  "fields": {
+    "name": "John",
+    "roll": 110,
+    "subject": "Biology",
+    "marks": 72
+  }
+},
+{
+  "model": "core.student",
+  "pk": 27,
+  "fields": {
+    "name": "John",
+    "roll": 110,
+    "subject": "Chemistry",
+    "marks": 65
+  }
+},
+{
+  "model": "core.student",
+  "pk": 28,
+  "fields": {
+    "name": "John",
+    "roll": 110,
+    "subject": "Math",
+    "marks": 32
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 5,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "100.00",
+    "created_at": "2026-05-02T07:36:44.988Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 6,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "bua",
+    "amount": "1100.00",
+    "created_at": "2026-05-02T12:00:00Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 7,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "80.00",
+    "created_at": "2026-05-05T18:00:00Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 8,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "105.00",
+    "created_at": "2026-05-04T07:39:52.101Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 9,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "mobile",
+    "amount": "100.00",
+    "created_at": "2026-05-04T07:40:08.917Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 10,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "80.00",
+    "created_at": "2026-05-03T12:00:00Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 11,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "watermelon",
+    "amount": "80.00",
+    "created_at": "2026-05-05T07:40:28.284Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 12,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "80.00",
+    "created_at": "2026-05-06T12:00:00Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 13,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tehari(biriyani)",
+    "amount": "480.00",
+    "created_at": "2026-05-06T12:00:00Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 14,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "100.00",
+    "created_at": "2026-05-07T07:54:24.636Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 15,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "fuska",
+    "amount": "100.00",
+    "created_at": "2026-05-07T07:54:35.331Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 16,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "80.00",
+    "created_at": "2026-05-09T07:56:06.491Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 17,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "snacks",
+    "amount": "200.00",
+    "created_at": "2026-05-09T07:56:36.187Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 18,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "120.00",
+    "created_at": "2026-05-10T01:56:45.162Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 19,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "pineapple",
+    "amount": "60.00",
+    "created_at": "2026-05-10T07:56:57.955Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 20,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "biscuit",
+    "amount": "40.00",
+    "created_at": "2026-05-10T07:57:13.819Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 22,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "100.00",
+    "created_at": "2026-05-11T00:31:08.393Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 23,
+  "fields": {
+    "user": 4,
+    "username": "",
+    "password": "",
+    "name": "Samia admit",
+    "amount": "840.00",
+    "created_at": "2026-06-07T06:48:39.699Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 24,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-06-10T02:19:07.964Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 25,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "65.00",
+    "created_at": "2026-06-17T04:10:32.226Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 26,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-06-18T04:10:38.552Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 27,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "60.00",
+    "created_at": "2026-06-25T05:08:03.847Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 28,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "60.00",
+    "created_at": "2026-06-24T05:08:26.222Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 29,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": ".",
+    "amount": "10.00",
+    "created_at": "2026-06-25T05:08:41.880Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 30,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (roll)",
+    "amount": "15.00",
+    "created_at": "2026-06-25T05:08:57.632Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 31,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (bun)",
+    "amount": "10.00",
+    "created_at": "2026-06-24T05:09:24.952Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 32,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-06-22T05:09:37.705Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 33,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "pen",
+    "amount": "50.00",
+    "created_at": "2026-06-23T05:09:49.850Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 35,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-06-23T05:10:06.657Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 36,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "khata",
+    "amount": "100.00",
+    "created_at": "2026-06-22T05:10:21.800Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 37,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (chips)",
+    "amount": "10.00",
+    "created_at": "2026-06-22T05:10:36.819Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 38,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-06-28T05:14:01.977Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 39,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "60.00",
+    "created_at": "2026-06-29T05:14:20.481Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 40,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (chips)",
+    "amount": "10.00",
+    "created_at": "2026-06-29T05:14:55.288Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 41,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (bun)",
+    "amount": "10.00",
+    "created_at": "2026-06-29T05:15:22.817Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 42,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (snickers)",
+    "amount": "90.00",
+    "created_at": "2026-06-29T05:15:36.930Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 43,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (biscuit)",
+    "amount": "20.00",
+    "created_at": "2026-06-29T05:15:47.889Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 44,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "90.00",
+    "created_at": "2026-07-02T09:41:20.950Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 45,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "75.00",
+    "created_at": "2026-07-05T09:41:29.999Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 46,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-07-09T09:41:41.615Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 47,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-07-07T09:41:48.408Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 48,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (chips)",
+    "amount": "20.00",
+    "created_at": "2026-07-05T09:42:01.009Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 49,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (roll)",
+    "amount": "20.00",
+    "created_at": "2026-07-05T09:42:18.870Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 50,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (chips)",
+    "amount": "30.00",
+    "created_at": "2026-07-09T09:42:27.590Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 51,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (cake)",
+    "amount": "10.00",
+    "created_at": "2026-07-09T09:42:41.943Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 52,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": ".",
+    "amount": "10.00",
+    "created_at": "2026-07-09T09:42:48.423Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 53,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (snickers)",
+    "amount": "90.00",
+    "created_at": "2026-07-02T09:43:04.982Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 54,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": ".",
+    "amount": "10.00",
+    "created_at": "2026-07-02T09:43:14.069Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 55,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "110.00",
+    "created_at": "2026-07-12T06:42:01.961Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 56,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-07-15T04:38:21.398Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 57,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "65.00",
+    "created_at": "2026-07-16T04:38:30.535Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 58,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": ".",
+    "amount": "10.00",
+    "created_at": "2026-07-15T04:38:36.015Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 59,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (biscuit)",
+    "amount": "20.00",
+    "created_at": "2026-07-16T04:38:55.984Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 60,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (roll)",
+    "amount": "40.00",
+    "created_at": "2026-07-16T04:39:07.559Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 61,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "65.00",
+    "created_at": "2026-07-19T10:40:16.597Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 62,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-07-20T14:47:11.195Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 63,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (kinder joy)",
+    "amount": "120.00",
+    "created_at": "2026-07-20T14:47:29.245Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 64,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (chips)",
+    "amount": "20.00",
+    "created_at": "2026-07-20T14:47:42.222Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 65,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": ".",
+    "amount": "10.00",
+    "created_at": "2026-07-20T14:48:35.077Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 66,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "tp",
+    "amount": "70.00",
+    "created_at": "2026-07-21T03:08:44.635Z"
+  }
+},
+{
+  "model": "expense_tracker.expense",
+  "pk": 67,
+  "fields": {
+    "user": 3,
+    "username": "",
+    "password": "",
+    "name": "snacks (choco lava)",
+    "amount": "140.00",
+    "created_at": "2026-07-21T03:09:01.822Z"
+  }
+}
+]
